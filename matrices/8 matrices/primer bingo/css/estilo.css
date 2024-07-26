@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #de07fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .carton {
+
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .fila {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  
+  .casilla {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #26ebe1e1;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 5px;
+    
+  }
+  
+  .casilla:last-child {
+    margin-right: 0;
+  }
+  
